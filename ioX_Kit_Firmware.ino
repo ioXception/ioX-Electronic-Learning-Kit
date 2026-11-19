@@ -4,7 +4,7 @@
 /*
 Date: 17:26 30th July, 2024.
 
-DESCRIPTION: Classic Simon Game.
+DESCRIPTION: This is the Firmware for the ioX-Electronic-Learning-Kit.
 
 AUTHOR: Nili (TechEnthu) @ioXception
 
@@ -17,7 +17,7 @@ Three Games included!
   3. Add the Color (MultiPlayer).
 
 HISTORY:
-04th April 2026: Enchancing some features.
+04th April 2026: Enhancing some features.
 
 */
 
@@ -88,7 +88,7 @@ char multiPlayerSequence[31][7];
 //////////////////////////////////////////////////////////////////////////
 void setup()
 {
-// Initialise Buttons
+//Initialize buttons
 pinMode(redButton, INPUT_PULLUP);
 pinMode(greenButton, INPUT_PULLUP);
 pinMode(blueButton, INPUT_PULLUP);
